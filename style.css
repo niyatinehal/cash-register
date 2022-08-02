@@ -1,10 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Butcherman&family=Edu+QLD+Beginner:wght@400;600&family=Kanit:wght@200&family=Rubik+Moonrocks&display=swap');
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: rgb(237, 223, 200);
+  background-color: #065F46;
+  
 }
 
 a {
@@ -12,33 +14,46 @@ a {
 }
 
 :root {
-  --primary-color: #772b7b;
+  --primary-color:#F5D0FE;
+  --text-color:#F43F5E;
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Kanit', sans-serif;
   min-width: 100vw;
+  border: 2px solid  #F5D0FE;
+  
 }
 
-/* Container */
 .container {
-  margin: 4rem auto 7rem;
+  margin: 4rem 6rem 7rem;
   text-align: center;
+  border: 4px solid #F5D0FE;
+  border-radius: 2rem;
+  padding: 40px;
+  
 }
 
 .heading {
   color: var(--primary-color);
+  border: 4px solid;
+  border-radius: 2rem; 
 }
 
 .description {
   font-size: larger;
   margin: 1rem;
+  font-weight: bolder;
+
 }
 
 .input-label {
   display: block;
   font-size: large;
-  font-weight: 600;
+  font-weight: 900;
+  color: 
+  text-decoration: underline;
+  
 }
 
 .input {
@@ -46,7 +61,7 @@ body {
   outline: #fff;
   padding: 0.6rem 1rem;
   margin: 1rem;
-  border: 2px solid var(--primary-color);
+  border: 3px solid var(--primary-color);
   border-radius: 0.5rem;
   width: 100%;
   max-width: 258px;
@@ -55,7 +70,7 @@ body {
 #check-button {
   background: var(--primary-color);
   border: none;
-  color: #fff;
+  color: #065F46;
   padding: 0.7rem 1rem;
   border-radius: 0.5rem;
   font-size: large;
@@ -72,11 +87,12 @@ body {
 }
 
 /* Table */
-.change-table {
+.table {
   width: 50%;
   text-align: justify;
   border-collapse: collapse;
   margin: auto;
+  padding: 20px;
 }
 
 .change-table caption {
