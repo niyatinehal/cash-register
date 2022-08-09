@@ -101,6 +101,7 @@ body {
   margin: 1rem auto;
   font-size: x-large;
   font-weight: 500;
+  color: #F5D0FE;
 }
 
 th,
@@ -109,5 +110,7 @@ td {
   width: 0%;
   border-collapse: collapse;
   padding: 0.4rem;
+  color: #F5D0FE;
 }
+
 
