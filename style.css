@@ -44,6 +44,7 @@ body {
   font-size: larger;
   margin: 1rem;
   font-weight: bolder;
+  color: #F5D0FE;
 
 }
 
@@ -51,8 +52,9 @@ body {
   display: block;
   font-size: large;
   font-weight: 900;
-  color: 
+  color: #F5D0FE;
   text-decoration: underline;
+  
   
 }
 
