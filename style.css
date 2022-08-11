@@ -67,6 +67,7 @@ body {
   border-radius: 0.5rem;
   width: 100%;
   max-width: 258px;
+  color: white;
 }
 
 #check-button {
@@ -117,3 +118,6 @@ td {
   color: #F5D0FE;
 }
 
+#error-message{
+  color:#F5D0FE;
+}
