@@ -8,6 +8,10 @@ const availableNotes = [2000, 500, 100, 20, 10, 5, 1];
 
 checkButton.addEventListener("click", function validateBillAndCashAmount() {
   hideMessage();
+  if(billAmount.value==cashGiven.value)
+  {
+    showMessage("Bill Paid");
+  }
   if (billAmount.value > 0) {
     // 12
     if (cashGiven.value >= billAmount.value) {
